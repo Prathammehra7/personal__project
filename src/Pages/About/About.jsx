@@ -1,23 +1,24 @@
 import React from 'react'
 import Header from '../../Components/Header'
-import Story from '../../Images/about1.jpg'
-import Vision from '../../Images/about2.jpg'
-import Mission from '../../Images/about3.jpg'
+import HeaderImage from '../../Images/header_bg_1.jpg'
+import StoryImage from '../../Images/about1.jpg'
+import VisionImage from '../../Images/about2.jpg'
+import MissionImage from '../../Images/about3.jpg'
 import './About.css'
 
 
 const About = () => {
   return (
     <>
-      <Header title="About Us"    >
+      <Header title="About Us" image={HeaderImage}>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Animi ea accusamus perspiciatis vitae nulla sed deserunt repudiandae optio, quae eum.
       </Header>
 
-      <section className="about__story" >             
+      <section className="about__story" >
         <div className="container about__story-container">
           <div className="about__section-image">
-            <img src={Story} alt="Our Story Image" />
+            <img src={StoryImage} alt="Our Story Image" />
           </div>
 
           <div className="about__section-content">
@@ -63,7 +64,7 @@ const About = () => {
                </p>
           </div>
           <div className="about__section-image">
-            <img src={Vision} alt="Our vision Image" />
+            <img src={VisionImage} alt="Our vision Image" />
           </div>
         </div>
       </section>
@@ -74,7 +75,7 @@ const About = () => {
       <section className="about__mission">
         <div className="container about__mission-container">
           <div className="about__section-image">
-            <img src={Mission} alt="Our mission Image" />
+            <img src={MissionImage} alt="Our mission Image" />
           </div>
 
           <div className="about__section-content">

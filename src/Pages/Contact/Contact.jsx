@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header'
+import HeaderImage from '../../Images/header_bg_2.jpg'
 import {MdEmail} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
@@ -10,7 +11,7 @@ import './Contact.css'
 const Contact = () => {
   return (
     <>
-    <Header title="Get In Touch" > 
+    <Header title="Get In Touch" image={HeaderImage}> 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
      Dolores expedita beatae saepe vero sint officiis, ipsam voluptatum atque minima? Reiciendis!
     </Header>

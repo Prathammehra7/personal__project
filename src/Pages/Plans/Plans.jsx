@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header'
+import HeaderImage from '../../Images/header_bg_4.jpg'
 import Card from '../../Ul/Card'
 import { plans } from '../../data'
 import './Plan.css'
@@ -9,7 +10,7 @@ import './Plan.css'
 const Plans = () => {
   return (
     <>
-      <Header title="Membership Plans" >
+      <Header title="Membership Plans" image={HeaderImage}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Assumenda illum officiis, sequi totam eveniet id numquam odio soluta voluptates veritatis?
       </Header>

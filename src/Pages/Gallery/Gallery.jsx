@@ -1,4 +1,5 @@
 import Header from '../../Components/Header'
+import HeaderImage from '../../Images/header_bg_3.jpg'
 import './Gallery.css'
 
 
@@ -19,16 +20,16 @@ const Gallery = () => {
 
   return (
     <>
-      <Header title="Our Gallery" >
+      <Header title="Our Gallery" image={HeaderImage}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Odit voluptates itaque eum dolorem, ad obcaecati rerum ullam facilis officiis corrupti!
       </Header>
       <section className="gallery">
         <div className="container gallery__container">
           {
-            images.map((news, index) => {
+            images.map((image, index) => {
               return <article key={index}>
-                <img src={news} alt={`Gallery Image ${index + 1}`} />
+                <img src={image} alt={`Gallery Image ${index + 1}`} />
               </article>
             })
           }
