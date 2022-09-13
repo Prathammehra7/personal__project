@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../Components/Header'
-import StoryImage from '../../Images/about1.jpg'
-import VisionImage from '../../Images/about2.jpg'
-import MissionImage from '../../Images/about3.jpg'
+import Story from '../../Images/about1.jpg'
+import Vision from '../../Images/about2.jpg'
+import Mission from '../../Images/about3.jpg'
 import './About.css'
 
 
@@ -17,7 +17,7 @@ const About = () => {
       <section className="about__story" >             
         <div className="container about__story-container">
           <div className="about__section-image">
-            <img src={StoryImage} alt="Our Story Image" />
+            <img src={Story} alt="Our Story Image" />
           </div>
 
           <div className="about__section-content">
@@ -63,7 +63,7 @@ const About = () => {
                </p>
           </div>
           <div className="about__section-image">
-            <img src={VisionImage} alt="Our vision Image" />
+            <img src={Vision} alt="Our vision Image" />
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@ const About = () => {
       <section className="about__mission">
         <div className="container about__mission-container">
           <div className="about__section-image">
-            <img src={MissionImage} alt="Our mission Image" />
+            <img src={Mission} alt="Our mission Image" />
           </div>
 
           <div className="about__section-content">

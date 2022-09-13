@@ -15,7 +15,7 @@ const MainHeader = () => {
       <div className="main__header-right">
         <div className="main__header-circle"></div>
         <div className="main__header-image">
-          <img src="https://raw.githubusercontent.com/egattor/react-website-1-starter/main/images/main_header.png" alt="Main Header Image" />
+          <img src="https://www.pngall.com/wp-content/uploads/5/Michael-Jordan-PNG-Download-Image.png" alt="Main Header Image" />
         </div>
 
       </div>

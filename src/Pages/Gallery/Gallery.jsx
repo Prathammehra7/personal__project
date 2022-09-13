@@ -26,9 +26,9 @@ const Gallery = () => {
       <section className="gallery">
         <div className="container gallery__container">
           {
-            images.map((image, index) => {
+            images.map((news, index) => {
               return <article key={index}>
-                <img src={image} alt={`Gallery Image ${index + 1}`} />
+                <img src={news} alt={`Gallery Image ${index + 1}`} />
               </article>
             })
           }
