@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Image from '../Images/main_header.png'
 
 const MainHeader = () => {
   return (
@@ -16,7 +15,7 @@ const MainHeader = () => {
       <div className="main__header-right">
         <div className="main__header-circle"></div>
         <div className="main__header-image">
-          <img src={Image} alt="Main Header Image" />
+          <img src="https://raw.githubusercontent.com/egattor/react-website-1-starter/main/images/main_header.png" alt="Main Header Image" />
         </div>
 
       </div>

@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import Gallery from "./Pages/Gallery/Gallery";
 import Plans from "./Pages/Plans/Plans";
 import NotFound from "./Pages/NotFound/NotFound";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='plans' element={<Plans />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
 
 

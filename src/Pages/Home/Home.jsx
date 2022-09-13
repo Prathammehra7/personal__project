@@ -1,6 +1,5 @@
 import React from 'react'
 import FAQs from '../../Components/FAQs'
-import Footer from '../../Components/Footer'
 import MainHeader from '../../Components/MainHeader'
 import Programs from '../../Components/Programs'
 import Testimonials from '../../Components/Testimonials'
@@ -16,7 +15,6 @@ const Home = () => {
     <Values/>
     <FAQs/>
     <Testimonials/>
-    <Footer/>
     </>
     )
 }
