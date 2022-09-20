@@ -10,6 +10,11 @@ nav {
     z-index: 99;
 }
 
+nav:hover{
+    box-shadow: 0 1px 0px 0 white, 0 10px 1000px 0 rgb(8, 0, 255);
+    
+
+}
 .nav__toggle-btn {
     display: none;
 }
@@ -24,7 +29,7 @@ nav {
 }
 
 .logo {
-    width: 7rem;
+    width: 4rem;
     display: block;
 }
 

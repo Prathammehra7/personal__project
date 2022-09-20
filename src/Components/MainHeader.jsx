@@ -9,7 +9,8 @@ const MainHeader = () => {
       <div className='container main__header-container'>
         <div className="main__header-left">
           <h4>Healthy | Fit Workout</h4>
-          <h1>join the Legends of the fitness world</h1>
+          <h1>join the Legends of the fitness world </h1>
+          <h2>with Pratham Mehra</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus distinctio culpa aut?</p>
           <Link to="/plans" className='btn lg'> Get started</Link>
         </div>
